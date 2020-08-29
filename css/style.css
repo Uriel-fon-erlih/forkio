@@ -460,16 +460,6 @@ button::-moz-focus-inner {
   color: #4b3e3e;
 }
 
-.header__box-logo:hover .header__logo {
-  background-image: url("../images/logo-hover.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header__box-logo:hover .header__title-logo {
-  color: #fff;
-}
-
 .main {
   min-width: 320px;
   margin-top: 120px;
@@ -1214,6 +1204,16 @@ button::-moz-focus-inner {
     padding-left: 20%;
     padding-right: 20%;
     margin-top: 35px;
+  }
+
+  .header__box-logo:hover .header__logo {
+    background-image: url("../images/logo-hover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header__box-logo:hover .header__title-logo {
+    color: #fff;
   }
 
   .main {
